@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "combat-hud",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Combat HUD",
+  "description": "A minecraft (fabric) mod that add a hud for combat related things with advanced confuguiration.",
   "authors": [
-    "Me!"
+    "bbb651"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://bbb651.github.io",
+    "sources": "https://github.com/bbb651/combat-hud"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/combat-hud/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.bbb651.combathud.CombatHud"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "combat-hud.mixins.json"
   ],
 
   "depends": {
